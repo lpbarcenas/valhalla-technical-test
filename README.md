@@ -8,3 +8,5 @@ To run the app, make sure you have Node installed in your machine.
 npm install
 npm start
 ```
+
+Please note the refactored frontend in ReactJS is hosted at [localhost:3000](http://localhost:3000)
