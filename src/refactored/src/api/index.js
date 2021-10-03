@@ -1,5 +1,6 @@
-export const api = async(category="Nature", page=1) => {
-    const link = `http://localhost:8888/images?category=${category}&page=${page}`
+export const api = async(category="nature", page=1) => {
+
+    const link = `${process.env.API_URL}/images?category=${category}&page=${page}`
     return  fetch(link)
     .then(function (response) {
       return response.json()

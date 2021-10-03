@@ -6,6 +6,7 @@ Technical test from [Valhalla project](https://gitlab.com/Blvnp_Developers/techn
 To run the app, make sure you have Node installed in your machine.
 ```
 npm install
+npm --prefix ./src/refactored install
 npm start
 ```
 
